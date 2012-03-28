@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,600);
 
+a,a:visited {
+  color: #0088cc;
+/*  text-decoration: none;*/
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
 .slide {
 /*  background: #000;*/
 /*  color: #fff;*/
@@ -8,7 +17,7 @@
 }
 
 .content {
-  margin:30px
+  margin:0px
 }
 
 .code-sample {
@@ -29,14 +38,14 @@ h1 {
   font-weight: 600;
   margin:0 0 20px;
   padding:0;
-  color: #336699;
+  color: #4096EE;
   line-height:1em;
 }
 
 h2,h3 {
   font-family: 'Advent Pro', sans-serif;
   font-weight: normal;
-  color: #A1D7B6;
+color: #FF0084;
   font-size:60px;
 }
 

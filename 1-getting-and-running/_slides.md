@@ -39,6 +39,7 @@
   1. turn your template into a git repo
   1. create *cedar stack* heroku app
   1. push hubot & configure variables with `heroku config:add SETTING=value`
+  1. start the worker with `heroku ps:scale app=1`
 
 !SLIDE
 #for deploy details

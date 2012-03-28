@@ -44,4 +44,3 @@
       "hubot": ">= 2.0.1", //but apparently not 2.1.4 :-/
       ...
     }
-

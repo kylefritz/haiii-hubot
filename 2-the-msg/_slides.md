@@ -8,9 +8,40 @@
     module.exports = (robot) ->
       robot.respond /what time is it/i, (msg) ->
         msg.send "Game time."
-    robot.respond /what time is it\!/i, (msg) ->
-      msg.send "GAME TIME!!"
+      robot.respond /what time is it\!/i, (msg) ->
+        msg.send "GAME TIME!!"
         
+!SLIDE
+#WOAH! i thought this was a javascript meetup?
+
+!SLIDE
+
+## coffeescript
+
+    @@@ coffeescript
+    module.exports = (robot) ->
+      robot.respond /what time is it/i, (msg) ->
+        msg.send "Game time."
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+        
+!SLIDE
+
+## coffeescript
+
+    @@@ coffeescript
+    module.exports = (robot) ->
+      robot.respond /what time is it/i, (msg) ->
+        msg.send "Game time."
+
+## is basically javascript
+
+    @@@ javascript
+    module.exports = function(robot){
+      robot.respond(/what time is it/i, function(msg){
+        msg.send("Game time.")
+        });
+    }
 
 !SLIDE
 #one second regex review

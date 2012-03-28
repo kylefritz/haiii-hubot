@@ -1,0 +1,11 @@
+{
+	"name": "Hubot @ baltimore.js",
+	"sections": [
+		{"section":"1-getting-and-running"},
+		{"section":"2-the-msg"},
+		{"section":"3-gotchas"},
+		{"section":"4-webrequests"},
+		{"section":"5-persistence"},
+		{"section":"6-last-thoughts"}
+	]
+}
